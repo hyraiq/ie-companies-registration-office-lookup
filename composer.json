@@ -1,6 +1,6 @@
 {
     "name": "hyraiq/ie-companies-registration-office-lookup",
-    "description": "Irish business number validation and verification using the Irish Companies Registration Office (COR) web services API",
+    "description": "Irish business number validation and verification using the Irish Companies Registration Office (CRO) web services API",
     "type": "library",
     "require": {
         "php": ">=8.1",
