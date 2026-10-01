@@ -73,9 +73,9 @@ final class ApiClient implements ApiClientInterface
      *
      * @psalm-param    class-string<T> $type
      *
-     * @psalm-return   T
-     *
      * @throws UnexpectedResponseException
+     *
+     * @psalm-return   T
      */
     private function decodeResponse(string $response, string $type): object
     {
