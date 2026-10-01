@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Hyra\IeCompaniesRegistrationOfficeLookup\Model;
 
 use Hyra\IeCompaniesRegistrationOfficeLookup\Enum\CompanyBusinessIndicator;
-use Symfony\Component\Serializer\Annotation\SerializedName;
+use Symfony\Component\Serializer\Attribute\SerializedName;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Constraints\NotNull;
 
