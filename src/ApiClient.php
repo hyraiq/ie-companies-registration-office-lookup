@@ -23,6 +23,9 @@ final class ApiClient implements ApiClientInterface
 {
     private HttpClientInterface $client;
 
+    /**
+     * @throws TransportExceptionInterface
+     */
     public function __construct(
         private readonly DenormalizerInterface $denormalizer,
         private readonly ValidatorInterface $validator,
